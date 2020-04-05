@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image View</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/css/style.css">
+    <link rel="stylesheet" href="js/js/style.css">
+</head>
+<body>
+<p>
+    <a id="btnShow" href="assets/image01.jpg">show</a>
+</p>
+<p>
+    <img id="img" src="doesnotexist" width="600px" height="600px" alt=""/>
+</p>
+
+<script>
+    $(function() {
+        $("#btnShow").click(function() {
+            $("#img").show();
+        });
+        $("#btnHide").click(function() {
+            $("#img").hide();
+        });
+    })
+</script>
+</body>
+</html>

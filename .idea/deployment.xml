@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="imgae_view_driver">
+    <serverData>
+      <paths name="imgae_view_driver">
+        <serverdata>
+          <mappings>
+            <mapping deploy="D:\chani\image_view_driver" local="$PROJECT_DIR$/../../image_view_driver" web="\image_view_driver" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
